@@ -1,38 +1,82 @@
-.App {
-  text-align: center;
-}
+/* celular */
+@media screen  and (max-width: 360px){
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  .grid-conteiner{
+    display: grid;
+    background-color: cornsilk;
+    grid-template-columns: repeat(4,1fr);
+    gap: 16px;
+    padding: 16px;
+    width: 100%;
+    height: 100%;
+    
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .grid-conteiner div{
+    background-color: crimson;
+    
   }
-  to {
-    transform: rotate(360deg);
+
+}
+
+/* table */
+@media only screen and (min-width: 361px) and (max-width: 768px){
+
+  .grid-conteiner{
+    display: grid;
+    background-color: rgb(221, 220, 255);
+    grid-template-columns: repeat(8,1fr);
+    gap: 24px;
+    padding: 16px;
+    margin-top: 24px;
+    width: 100%;
+    height: 100%;
+    
   }
+  .grid-conteiner div{
+    background-color: rgb(20, 57, 220);
+    
+  }
+
+}
+
+/* pc 1440 */
+@media only screen and (min-width: 769px) and (max-width: 1440px){
+
+  .grid-conteiner{
+    display: grid;
+    background-color: rgb(213, 247, 197);
+    grid-template-columns: repeat(12,1fr);
+    gap: 24px;
+    padding: 60px;
+    margin-top: 24px;
+    width: 100%;
+    height: 100%;
+    
+  }
+  .grid-conteiner div{
+    background-color: rgb(15, 92, 12);
+    
+  }
+
+}
+
+/* pc 1920 */
+@media only screen and (min-width: 1441px) and (max-width: 1920px){
+
+  .grid-conteiner{
+    display: grid;
+    background-color: rgb(247, 197, 236);
+    grid-template-columns: repeat(12,1fr);
+    gap: 24px;
+    padding: 240px;
+    margin-top: 24px;
+    width: 100%;
+    height: 100%;
+    
+  }
+  .grid-conteiner div{
+    background-color: rgb(87, 19, 66);
+    
+  }
+
 }
