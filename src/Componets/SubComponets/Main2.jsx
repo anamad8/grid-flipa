@@ -1,5 +1,5 @@
 import React from 'react';
-import img1 from '../../img1440/Imágen-1.png';
+import img1 from '../../Img/img1440/Imágen-1.png';
 
 
 function Main2() {

@@ -1,7 +1,7 @@
 import React from 'react';
-import logo from "../../img1440/Iso.png";
+import logo from "../../Img/img1440/Iso.png";
 import { Link } from 'react-router-dom';
-import habuer from '../../img360/ic-menu.png'
+import habuer from '../../Img/img360/ic-menu.png'
 
 function Haeder() {
 
