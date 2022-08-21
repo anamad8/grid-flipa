@@ -5,9 +5,9 @@ function Main2() {
   return (
     <>
     <div className='main2'>
-      <img src={img1} alt="" srcset="" />
-      <img src={img1} alt="" srcset="" />
-      <img src={img1} alt="" srcset="" />
+      <img className='main2__card1' src={img1} alt="" srcset="" />
+      <img className='main2__card2'src={img1} alt="" srcset="" />
+      <img className='main2__card3' src={img1} alt="" srcset="" />
     </div>
 </>
   )
